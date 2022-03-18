@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+}   
+
+body
+{
+    font-family:'system-ui', Times, serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    overflow: scroll;
+}
+.header{
+    background-color: #EEEEEE;
+    margin: 64px ;
+}
+.header .container
+{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 64px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 64px 30px 64px;
+    position: relative;
+}
+
+.header .container .header-title{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 0px;
+}
+.header .header-title .title{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.header .container .log-out{
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+.header .container .log-out button{
+    border-radius: 5px;
+    border: 1px solid #DDDDDD;
+    padding: 10px 10px 10px 10px;
+    outline: none;
+    margin-bottom: 10px;
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+    
+}
+.header .container .log-out i{
+    margin-right: 10px;
+    transform: scaleX(-1);
+}
+
+
+.container
+{
+    margin: 0px 120px 0px 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 80px;
+}
+.container .card
+{
+    
+}
+.container .card .content
+{
+    margin: 20px 20px 10px 20px;  
+}
+.container .card .card-title
+{
+     font-size: 30px;
+     margin-bottom: 10px;
+}
+.container .card .card-img
+{
+     width: 800px;
+    height: 700px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+.container .card .card-content
+{
+    margin-bottom: 20px;
+}
+.container .card .card-itemCode,
+.container .card .card-manuFaturer,
+.container .card .card-category,
+.container .card .card-unit,
+.container .card .card-price
+{
+    display: flex;
+    flex-direction: row;
+}
+.container .card .card-itemCode span:last-child
+{
+    background-color: #F0AD4E;
+    color: #fff;
+    padding: 2px 5px 2px 5px;
+    font-size: 12px;
+    border: 1px solid #F0AD4E;
+    border-radius: 3px;
+}
+.container .card .card-category span:last-child
+{
+    color: #428BCA;
+}
+.container .card .content div span{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.container .card .content div span:last-child
+{
+    margin-left: 10px;
+    font-weight: 400;
+}
+.container .card .card-price
+{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.container .card .card-button
+{
+    display: flex;
+    flex-direction: row;
+}
+.container .card .card-button a button,
+.container .card .card-button .order
+{
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    background-color: #428BCA;
+    color: #fff;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.container .card .card-button .order
+{
+   background-color: #F0AD4E;
+   cursor: pointer;
+}
+.container .card .card-button button i
+{
+    margin-right: 10px;
+}

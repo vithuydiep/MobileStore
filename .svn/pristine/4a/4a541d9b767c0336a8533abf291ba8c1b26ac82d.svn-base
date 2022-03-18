@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+}   
+
+body
+{
+    font-family:'system-ui', Times, serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    overflow: scroll;
+}
+.header{
+    background-color: #EEEEEE;
+    margin: 64px ;
+}
+.header .container
+{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 64px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 64px 30px 64px;
+    position: relative;
+}
+
+.header .container .header-title{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 0px;
+}
+.header .header-title .title{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.header .container .log-out{
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+.header .container .log-out button{
+    border-radius: 5px;
+    border: 1px solid #DDDDDD;
+    padding: 10px 10px 10px 10px;
+    outline: none;
+    margin-bottom: 10px;
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+    
+}
+.header .container .log-out i{
+    margin-right: 10px;
+    transform: scaleX(-1);
+}
+
+
+.container
+{
+    margin: 0px 160px 0px 160px;
+    display: flex;
+    flex-direction: column;
+}
+.container .button-clear 
+{
+    display: flex;
+    justify-content: space-between;
+}
+.container .table table
+{
+    width: 100%;
+    border-top: 1px solid #999999;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.container .table table tr
+{
+    text-align: left;
+    border-bottom: 1px solid #999999;
+    
+}
+td, th
+{
+    padding: 10px 0px 10px 0px;
+}
+/*.container .table table tr:last-child td:nth-child(4),
+.container .table table tr:last-child td:nth-child(5)
+{
+    font-weight: 600;
+}*/
+tfoot tr td
+{
+    font-weight: 600;
+}
+.container .table table tr td,
+.container .table table tr th
+{
+    width: 15%;
+}
+.container .button-clear button:last-child
+{
+    background-color: #5CB85C;
+}
+.container .button-clear button,
+.container .button-continue button
+{
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    background-color: #428BCA;
+    color: #fff;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.container .table table tr td button
+{
+    border-radius: 5px;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    background-color: #D9534F;
+    color: #fff;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.container .table table tr td button i
+{
+    margin-right: 10px;
+}
+.container .button-continue button
+{
+    background-color: #5CB85C;
+}
+.container .button-continue button i
+{
+    background-color: #5CB85C;
+    margin-right: 10px;
+}
+.container .button-clear button i
+{
+    margin-right: 10px;
+}

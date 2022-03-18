@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}   
+
+body
+{
+    font-family:'system-ui', Times, serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    overflow: scroll;
+}
+.header{
+    background-color: #EEEEEE;
+    margin: 64px ;
+}
+.header .container
+{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 64px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 64px 30px 64px;
+    position: relative;
+}
+
+.header .container .header-title{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 0px;
+}
+.header .header-title .title{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.header .container .log-out{
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+.header .container .log-out button{
+    border-radius: 5px;
+    border: 1px solid #DDDDDD;
+    padding: 10px 10px 10px 10px;
+    outline: none;
+    margin-bottom: 10px;
+    background-color: #D9534F;
+    color: white;
+    cursor: pointer;
+}
+
+
+.container
+{
+    margin: 0 64px 64px 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container form
+{
+    width: 600px;
+    margin-left: 100px;
+    width: 90%;
+}
+.container form .title-form
+{
+    padding: 10px 20px 10px 20px;
+    border-bottom: 1px solid #DDDDDD;
+    font-size: 25px;
+    
+}
+form .content-form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+form .content-form .container
+{
+    margin: 20px 20px 20px 20px;
+
+}
+form .content-form .container input[type="text"],
+form .content-form .container input[type="number"]
+{
+    padding: 10px 10px 10px 10px;
+    outline: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 303px;
+
+}
+form .content-form .container button
+{
+    border-radius: 5px;
+    border: 1px solid #DDDDDD;
+    padding: 10px 10px 10px 10px;
+    outline: none;
+    margin-bottom: 10px;
+    background-color: #428BCA;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 190px;
+    cursor: pointer;
+}
+
+/*product */
+.header-title h5.title{
+    font-size:  20px;
+    font-weight: 400;
+    padding-top: 0px;
+    margin-top: 10px;
+}
+form .content-form .container .form-component
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+form .content-form .container .form-component label
+{
+    width: 150px;
+    text-align: right;
+    margin-right: 40px;
+    padding-top: 15px;
+}
+form .content-form .container .form-component label.label-radio
+{
+    text-align: left;
+    width: auto;
+    margin-left: 10px;
+}
+form .content-form .container .form-component input[type="radio"]
+{
+    margin-top: 20px;
+    cursor: pointer;
+}
+form .content-form .container .form-component input[type="file"]
+{
+    margin-top: 17px;
+    cursor: pointer;
+}
+form .content-form .container .form-component:last-child
+{
+    width: 50%;
+}
+textarea
+{
+    outline: none;
+    margin: 10px 0px 10px 0px;
+}

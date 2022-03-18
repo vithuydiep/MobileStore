@@ -1,0 +1,14 @@
+Model\Cart.class
+Model\Product.class
+Controller\CartController.class
+Controller\LogoutController.class
+Utils\HibernateUtils.class
+Services\AdminService.class
+Controller\ProductListController.class
+Controller\ProductDetailController.class
+Model\User.class
+Controller\LoginController.class
+Controller\AddNewProduct.class
+Services\UserService.class
+Model\Item.class
+Utils\UserRole.class
